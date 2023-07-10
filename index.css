@@ -259,7 +259,7 @@ align-items: center;
         color: white;
         cursor: pointer;
      }
-     @media(max-width:991px){
+ @media only screen and (max-width:991px){
  
   #home{
     width: 100%;
@@ -276,7 +276,7 @@ align-items: center;
   }
  
 }
-@media(max-width:767px){
+@media only screen and (max-width:767px){
   #contact,
   .about img,
   .about{
@@ -287,10 +287,11 @@ align-items: center;
   }
 
 }
-@media(max-width:575px){
+@media only screen and (max-width:575px){
    #home h1,
   #education h2,
   .navbar ul li a{
     font-size: 35px;
   }
 }
+
