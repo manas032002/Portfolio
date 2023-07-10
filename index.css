@@ -259,39 +259,5 @@ align-items: center;
         color: white;
         cursor: pointer;
      }
- @media only screen and (max-width:991px){
- 
-  #home{
-    width: 100%;
 
-  }
-  .about{
-    text-align: center;
-  }
-  .about img{
-    order: -1;
-  }
-  .about img{
-    max-width: 300px;
-  }
- 
-}
-@media only screen and (max-width:767px){
-  #contact,
-  .about img,
-  .about{
-    width: 100%;
-  }
-  .about{
-    margin-top: 30px;
-  }
-
-}
-@media only screen and (max-width:575px){
-   #home h1,
-  #education h2,
-  .navbar ul li a{
-    font-size: 35px;
-  }
-}
 
